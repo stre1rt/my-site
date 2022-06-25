@@ -1,0 +1,686 @@
+/* сайт */
+html {
+    background-color: grey;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 1366px; 
+    height: 1667px;
+    background-size: 1366px 1667px;
+    background-repeat: no-repeat;
+    background-image: url("C:/Users/Asus/Desktop/проект/img/1612889826_175-p-krasnii-fon-komiks-249.jpg");
+}
+
+.sait {
+    width: 1366px; 
+    height: 1667px; 
+    max-width: 1450px;
+    margin: auto;
+}
+
+/* header */
+
+header {
+    width: 1366px;
+    height: 240.88px;
+    border-bottom: 1px solid black;
+}
+
+header img {
+    width: 394px;
+    height: 155px;
+    position: absolute;
+    left: 50px;
+    top: 43px;
+    border-radius: 4px;
+}
+
+header span {
+    position: absolute;
+    left: 512px;
+    top: 100px;
+    font-size: 36px;
+}
+
+/* левое меню */
+/* меню*/
+ul {
+    padding:0;
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none; 
+    font-size: 30px;
+    color: white;
+}
+
+.menu-top-1 {
+    position: absolute;
+    top: 287px;
+    left: 87px;
+}
+
+.menu-top-2 {
+    position: absolute;
+    top: 369px;
+    left: 87px;
+}
+
+.menu-top-3 {
+    position: absolute;
+    top: 457px;
+    left: 87px;
+}
+
+.menu-top-4 {
+    position: absolute;
+    top: 545px;
+    left: 77px;
+}
+
+nav {
+    height: 380.12px;
+    width: 303.04px;
+}
+
+div.left {
+    height: 1330 px;
+    width: 303.04px;
+    border-right: 1px solid black;
+}
+
+.submenu {
+    visibility: hidden;
+    opacity: 0;
+    padding: 3px;
+}
+
+.menu-top-4:hover>.submenu {
+    visibility: visible;
+    z-index: 1;
+    opacity: 1;
+    transition: 1s;
+}
+
+.submenu li {
+    display: inline-block ;
+}
+
+.submenu-top-1 {
+    padding-right: 15px;
+}
+
+.submenu-top-2 {
+    padding-left: 15px;
+}
+
+
+.submenu-top a {
+    cursor: pointer;
+}
+
+/*реклама*/
+.advert {
+    height: 949.07px;
+    width: 303.04px;
+}
+
+.advert-1 {
+    height: 426px;
+    width: 303.04px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.advert-2 {
+    height: 523.07px;
+    width: 303.04px;
+}
+
+
+.advert-1 img {
+    position: absolute;
+    left: 5px;
+    top: 624px;
+    width:293px;
+    height:412px;
+}
+
+.advert-2 img {
+    position: absolute;
+    left: 5px;
+    top: 1063px;
+    width:293px;
+    height:490px;
+}
+
+/* main */ 
+
+.sec-1 {
+    width: 1000px;
+    height: 425px;
+    position: absolute;
+    top: 273px;
+    left: 328px;
+}
+
+.company {
+    font-family: Inter;
+    font-size: 36px;
+    line-height: 44px;
+    margin-left: 108.6px;
+}
+
+.sec-1 p {
+    font-size: 36px;
+    width: 590px;
+    height: 358px;
+    margin-left: 2px;
+}
+
+.creator {
+    width: 301px;
+    height: 415px;
+    position: absolute;
+    right: 14px;
+    top:-1px;
+    border-radius:5px;
+}
+
+.sec-2 {
+    width: 970px;
+    height: 338px;
+    position: absolute;
+    top: 737px;
+    left: 342.15px;
+}
+
+.sec-2 span {
+    font-family: Inter;
+    font-size: 36px;
+    line-height: 44px;
+    margin-left: 108.6px;
+}
+
+.sec-2 p {
+    font-size: 36px;
+    width: 590px;
+    height: 358px;
+    margin-left: 2px;
+}
+
+.creator-2 {
+    width: 358px;
+    height: 302px;
+    position: absolute;
+    right: -35px;
+    top:0px;
+    border-radius:5px;
+}
+
+.sec-3 {
+    height: 353px;
+    width: 957px;
+    position: absolute;
+    top: 1105px;
+    left: 350px;
+}
+
+.sec-3 span {
+    font-family: Inter;
+    font-size: 36px;
+    line-height: 44px;
+    margin-left: 108.6px;
+}
+
+.sec-3 p {
+    font-size: 36px;
+    width: 570px;
+    height: 358px;
+    margin-left: 2px;
+}
+
+.creator-3 {
+    width: 400px;
+    height: 325px;
+    position: absolute;
+    right: -35px;
+    top:20px;
+    border-radius:5px;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid black;
+    font-size: 36px;
+}
+
+footer span {
+    position: absolute;
+    width: 332px;
+    height: 52px;
+    left: 544px;
+    top: 1595px;    
+}
+
+/* анимация */
+
+.creator {
+    animation-name: firstAnimation;
+    animation-duration: 4s;
+}
+
+@keyframes firstAnimation {
+    0% {
+        right: 14px;
+        top:-1px;
+    }
+
+    50% {
+        right: 300px;
+        top:-1px;
+    }
+
+    100% {
+        right: 14px;
+        top:-1px;
+    }
+}
+
+header img {
+    animation-name: SecondAnimation;
+    animation-duration: 7s;
+}
+
+@keyframes SecondAnimation {
+    0% {
+        left: 50px;
+        top: 43px;
+    }
+
+    20% {
+        left: 325px;
+        top: 90px;
+    }
+
+    40% {
+        left: 400px;
+        top: 355px;
+    }
+
+    80% {
+        left:200px;
+        top:500px;
+    }
+
+    100% {
+        left: 50px;
+        top: 43px;
+    }
+}
+
+.sec-3 p:hover {
+    animation-name: thirdAnimation;
+    animation-duration: 1s;
+}
+
+@keyframes  thirdAnimation {
+    0% {
+        opacity: 1;
+    }
+    33% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.sec-2 p:hover {
+    animation-name: FourthAnimation;
+    animation-duration: 1s;
+}
+
+@keyframes  FourthAnimation {
+    0% {
+        opacity: 1;
+    }
+    33% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.sec-1 p:hover {
+    animation-name: fifthAnimation;
+    animation-duration: 1s;
+}
+
+@keyframes  fifthAnimation {
+    0% {
+        opacity: 1;
+    }
+    33% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* 768 px */
+@media (max-width: 990px) { 
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        width: 990px;
+        height: 1250px;
+        background-color: #efe3af;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        width: 990px;
+        height: 1250px;
+        background-size: 990px 1250px;
+        background-repeat: no-repeat;
+        background-image: url("C:/Users/Asus/Desktop/проект/img/1612889826_175-p-krasnii-fon-komiks-249.jpg");
+    }
+
+    .sait {
+        width: 990px;
+        height: 1250px;
+        max-width: 1450px;
+        margin: auto;
+    }
+
+    header {
+        width: 990px;
+        height: 163px;
+        border-bottom: 1px solid black;
+    }
+
+    header img {
+        position: absolute;
+        width: 234px;
+        height: 99px;
+        left: 30px;
+        top: 36px;
+        border-radius: 5px;
+        animation-name: for;
+    }
+
+    header span {
+        position: absolute;
+        width: 648px;
+        height: 35px;
+        left: 342px;
+        top: 68px;
+        font-size: 28px;
+    }
+
+    /* левое меню */
+    /* меню*/
+
+    ul {
+        padding:0;
+        margin:0;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    li {
+        list-style-type: none; 
+        font-size: 27px;
+        color: white;
+    }
+
+    .menu-top-1 {
+        position: absolute;
+        width: 160px;
+        height: 38px;
+        left: 58px;
+        top: 191px;
+    }
+
+    .menu-top-2 {
+        position: absolute;
+        width: 123px;
+        height: 38px;
+        left: 58px;
+        top: 248px;
+    }
+
+    .menu-top-3 {
+        position: absolute;
+        width: 138px;
+        height: 43px;
+        left: 58px;
+        top: 313px;
+    }
+
+    .menu-top-4 {
+        position: absolute;
+        width: 160px;
+        height: 30px;
+        left: 44px;
+        top: 375px;
+    }
+
+    nav {
+        height: 266px;
+        width: 210.5px;
+    }
+
+    div.left {
+        width: 225px;
+        height: 1010px;
+        border-right: 1px solid black;
+    }
+
+    .submenu {
+        visibility: hidden;
+        opacity: 0;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        width: 157px;
+        height: 22px;
+    }
+
+    .menu-top-4:hover>.submenu {
+        visibility: visible;
+        z-index: 1;
+        opacity: 1;
+        transition: 1s;
+    }
+  
+    .submenu li {
+        display: inline-block ;
+    }
+
+    .submenu-top-1{
+        padding: 0px;
+        margin-right: 10px;
+        width: 60px;
+        height: 20px;
+    }
+    
+    .submenu-top-2{
+        padding: 0px;
+        margin: 0px;
+        width: 80px;
+        height: 20px;
+    }
+    
+    .submenu-top a {
+        cursor: pointer;
+    }
+
+    /*реклама*/
+
+    .advert {
+        width: 225px;
+        height: 685px;
+    }
+
+    .advert-1 {
+        width: 225px;
+        height: 299px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+    .advert-2 {
+        width: 225px;
+        height: 386px;
+    }
+
+    .advert-1 img {
+        position: absolute;
+        width: 197px;
+        height: 274px;
+        left: 14px;
+        top: 442px;
+    }
+
+    .advert-2 img {
+        position: absolute;
+        width: 197px;
+        height: 360px;
+        left: 19px;
+        top: 747px;
+    }
+
+    /* main */ 
+
+    .sec-1 {
+        position: absolute;
+        width: 733px;
+        height: 471px;
+        left: 238px;
+        top: 172px;
+    }
+
+    .company {
+        font-size: 28px;
+    }
+    
+    .sec-1 p {
+        width: 388px;
+        height: 418px;
+        font-size: 28px;
+        margin: 8px 36px 16px 36px;
+    }
+
+    .creator {
+        width: 281px;
+        height: 422px;
+        animation-name: kf;
+        margin-right: 5px;
+    }
+
+    .sec-2 {
+        position: absolute;
+        width: 470px;
+        height: 270px;
+        left: 238px;
+        top: 657px;
+    }
+
+    .sec-2 span {
+        font-size: 28px;
+    }
+
+    .sec-2 p {
+        font-size: 28px;
+        width: 466px;
+        height: 198px;
+        margin-left: 2px;
+    }
+
+    .creator-2 {
+        display: none;
+    }
+
+    .sec-3 {
+        position: absolute;
+        width: 425px;
+        height: 214px;
+        left: 432px;
+        top: 938px;        
+    }
+
+    .sec-3 span {
+        font-size: 28px;
+    }
+    
+    .sec-3 p {
+        font-size: 28px;
+        width: 418px;
+        height: 139px;
+        margin-left: 2px;
+    }
+    
+    .creator-3 {
+        display: none;
+    }
+
+    footer {
+        position: absolute;
+        width: 990px;
+        height: 76px;
+        left: 0px;
+        top: 1174px;
+        border-top: 1px solid black;
+        font-size: 36px;
+    }
+
+    footer span {
+        position: absolute;
+        width: 260px;
+        height: 44px;
+        left: 384px;
+        top: 12px;
+        font-size: 38px;
+    }
+
+}
+
+

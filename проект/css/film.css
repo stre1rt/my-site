@@ -1,0 +1,790 @@
+html {
+    background-color: grey;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 1366px; 
+    height: 1667px;
+    background-size: 1366px 1667px;
+    background-repeat: no-repeat;
+    background-image: url("C:/Users/Asus/Desktop/проект/img/1612889826_175-p-krasnii-fon-komiks-249.jpg");
+}
+
+.sait {
+    width: 1366px; 
+    height: 1667px; 
+    max-width: 1450px;
+    margin: auto;
+}
+
+/* header */
+
+header {
+    width: 1366px;
+    height: 240.88px;
+    border-bottom: 1px solid black;
+}
+
+
+header img {
+    width: 394px;
+    height: 155px;
+    position: absolute;
+    left: 50px;
+    top: 43px;
+    border-radius: 4px;
+}
+
+header span {
+    position: absolute;
+    width: 705px;
+    height: 70px;
+    left: 567px;
+    top: 100px;
+    font-size: 36px;
+}
+
+/* левое меню */
+/* меню*/
+ul {
+    padding:0;
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none; 
+    font-size: 30px;
+}
+
+.menu-top-1 {
+    position: absolute;
+    top: 287px;
+    left: 87px;
+}
+
+.menu-top-2 {
+    position: absolute;
+    top: 369px;
+    left: 87px;
+}
+
+.menu-top-3 {
+    position: absolute;
+    top: 457px;
+    left: 87px;
+}
+
+.menu-top-4 {
+    position: absolute;
+    top: 545px;
+    left: 77px;
+}
+
+nav {
+    height: 380.12px;
+    width: 303.04px;
+}
+
+div.left {
+    height: 1330 px;
+    width: 303.04px;
+    border-right: 1px solid black;
+}
+
+.submenu {
+    visibility: hidden;
+    opacity: 0;
+    padding: 3px;
+}
+
+.menu-top-4:hover>.submenu {
+    visibility: visible;
+    z-index: 1;
+    opacity: 1;
+    transition: 1s;
+}
+
+.submenu li {
+    display: inline-block ;
+}
+
+.submenu-top-1{
+    padding-right: 15px;
+}
+
+.submenu-top-2{
+    padding-left: 15px;
+}
+
+
+.submenu-top a {
+    cursor: pointer;
+}
+
+/*реклама*/
+.advert {
+    height: 949.07px;
+    width: 303.04px;
+}
+
+.advert-1 {
+    height: 426px;
+    width: 303.04px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.advert-2 {
+    height: 523.07px;
+    width: 303.04px;
+}
+
+
+.advert-1 img {
+    position: absolute;
+    left: 5px;
+    top: 624px;
+    width:293px;
+    height:412px;
+}
+
+.advert-2 img {
+    position: absolute;
+    left: 5px;
+    top: 1063px;
+    width:293px;
+    height:490px;
+}
+
+/* main */ 
+
+main p {
+    font-size: 20px;
+}
+
+.shan-chi  {
+    width: 231px;
+    height: 342px;
+    position: absolute;
+    border-radius: 5px;
+    left: 359px;
+    top: 259px;
+}
+
+.first-film {
+    position: absolute;
+    width: 182px;
+    height: 24px;
+    left: 400px;
+    top: 617px;
+    margin: 0;
+}
+
+.final {
+    position: absolute;
+    width: 225px;
+    height: 342px;
+    left: 642px;
+    top: 259px;
+    border-radius: 5px;
+}
+
+.second-film {
+    position: absolute;
+    width: 252px;
+    height: 23px;
+    left: 650px;
+    top: 590px;
+}
+
+.no-way-home {
+    position: absolute;
+    width: 445px;
+    height: 342px;
+    left: 901px;
+    top: 259px;
+    border-radius: 5px;
+}
+
+.third-film {
+    position: absolute;
+    width: 400px;
+    height: 19px;
+    left: 940px;
+    top: 605px;
+    margin: 10px;
+}
+
+.spider-man {
+    position: absolute;
+    width: 226px;
+    height: 323px;
+    left: 359px;
+    top: 672px;
+    border-radius: 5px;
+}
+
+.forth-film {
+    position: absolute;
+    width: 211px;
+    height: 65px;
+    left: 374px;
+    top: 980px;
+}
+
+.marvel-capitan {
+    position: absolute;
+    width: 226px;
+    height: 326px;
+    left: 641px;
+    top: 672px;
+    border-radius: 5px;
+}
+
+.fifth-film {
+    position: absolute;
+    width: 241px;
+    height: 54px;
+    left: 640px;
+    top: 1010px;
+    margin: 10px 0;
+}
+
+.marvel {
+    position: absolute;
+    width: 291px;
+    height: 301px;
+    left: 974px;
+    top: 683px;
+    border-radius: 5px;
+}
+
+.sixth-film {
+    position: absolute;
+    width: 423px;
+    height: 43px;
+    left: 940px;
+    top: 990px;
+    margin: 10px 0;
+}
+
+.tor-rag {
+    position: absolute;
+    width: 227px;
+    height: 341px;
+    left: 359px;
+    top: 1096px;
+    border-radius: 5px;
+}
+
+.seventh-film {
+    position: absolute;
+    width: 220px;
+    height: 28px;
+    left: 379px;
+    top: 1460px;
+    margin: 0;
+}
+
+.doctor {
+    position: absolute;
+    width: 253px;
+    height: 339px;
+    left: 665px;
+    top: 1098px;
+    border-radius: 5px;
+}
+
+.eighth-film {
+    position: absolute;
+    width: 199px;
+    height: 74px;
+    left: 702px;
+    top: 1443px;    
+    margin: 10px 0;
+}
+
+.murather {
+    position: absolute;
+    width: 244px;
+    height: 339px;
+    left: 1005px;
+    top: 1096px;
+    border-radius: 5px;
+}
+
+.nineth-film {
+    position: absolute;
+    width: 347px;
+    height: 24px;
+    left: 980px;
+    top: 1450px;
+    margin: 1px 0;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid black;
+    font-size: 36px;
+}
+
+footer span {
+    position: absolute;
+    width: 332px;
+    height: 52px;
+    left: 544px;
+    top: 1595px;   
+}
+
+/* анимация */ 
+
+p:hover {
+    animation-name: thirdAnimation;
+    animation-duration: 1s;
+}
+
+@keyframes  thirdAnimation {
+    0% {
+        opacity: 1;
+    }
+    33% {
+        opacity: 0;
+    }
+    66% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.murather {
+    animation-name: rex;
+    animation-duration: 5s;
+}
+
+@keyframes rex {
+    0% {
+        left: 1005px;
+        top: 1096px;
+    }
+
+    50% {
+        left: 1010px;
+        top: 1200px;
+    }
+    
+    100% {
+        left: 1005px;
+        top: 1096px;
+    }
+}
+
+footer span {
+    animation-name: dol;
+    animation-duration: 15s;
+}
+
+@keyframes dol {
+    0% {
+        left: 544px;
+        top: 1595px;
+    }
+    20% {
+        left: 2px;
+        top: 1595px;
+    }
+    40% {
+        left: 1050px;
+        top: 1595px;
+    }
+    60% {
+        left: 544px;
+        top: 1595px;
+    }
+    80% {
+        left: 2px;
+        top: 1595px;
+    }
+    90% {
+        left: 1050px;
+        top: 1595px;
+    }
+    100% {
+        left: 544px;
+        top: 1595px;
+    }
+}
+
+@media (max-width: 990px) { 
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        width: 990px;
+        height: 1822px;
+        background-color: #efe3af;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        width: 990px;
+        height: 1822px;
+        background-size: 990px 1822px;
+        background-repeat: no-repeat;
+        background-image: url("C:/Users/Asus/Desktop/проект/img/1612889826_175-p-krasnii-fon-komiks-249.jpg");
+    }
+
+    .sait {
+        width: 990px;
+        height: 1822px;
+        max-width: 1450px;
+        margin: auto;
+    }
+
+    header {
+        width: 990px;
+        height: 163px;
+        border-bottom: 1px solid black;
+    }
+
+    header img {
+        position: absolute;
+        width: 234px;
+        height: 99px;
+        left: 30px;
+        top: 36px;
+        border-radius: 5px;
+        animation-name: for;
+    }
+
+    header span {
+        position: absolute;
+        width: 648px;
+        height: 35px;
+        left: 342px;
+        top: 68px;
+        font-size: 28px;
+    }
+
+    /* левое меню */
+    /* меню*/
+
+    ul {
+        padding:0;
+        margin:0;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    li {
+        list-style-type: none; 
+        font-size: 27px;
+        color: white;
+    }
+
+    .menu-top-1 {
+        position: absolute;
+        width: 160px;
+        height: 38px;
+        left: 58px;
+        top: 191px;
+    }
+
+    .menu-top-2 {
+        position: absolute;
+        width: 123px;
+        height: 38px;
+        left: 58px;
+        top: 248px;
+    }
+
+    .menu-top-3 {
+        position: absolute;
+        width: 138px;
+        height: 43px;
+        left: 58px;
+        top: 313px;
+    }
+
+    .menu-top-4 {
+        position: absolute;
+        width: 160px;
+        height: 30px;
+        left: 44px;
+        top: 375px;
+    }
+
+    nav {
+        height: 266px;
+        width: 210.5px;
+    }
+
+    div.left {
+        width: 225px;
+        height: 1570px;
+        border-right: 1px solid black;
+    }
+
+    .submenu {
+        visibility: hidden;
+        opacity: 0;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        width: 157px;
+        height: 22px;
+    }
+
+    .menu-top-4:hover>.submenu {
+        visibility: visible;
+        z-index: 1;
+        opacity: 1;
+        transition: 1s;
+    }
+  
+    .submenu li {
+        display: inline-block ;
+    }
+
+    .submenu-top-1{
+        padding: 0px;
+        margin-right: 10px;
+        width: 60px;
+        height: 20px;
+    }
+    
+    .submenu-top-2{
+        padding: 0px;
+        margin: 0px;
+        width: 80px;
+        height: 20px;
+    }
+    
+    .submenu-top a {
+        cursor: pointer;
+    }
+
+    /*реклама*/
+
+    .advert {
+        width: 225px;
+        height: 685px;
+    }
+
+    .advert-1 {
+        width: 225px;
+        height: 299px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+    .advert-2 {
+        width: 225px;
+        height: 386px;
+    }
+
+    .advert-1 img {
+        position: absolute;
+        width: 197px;
+        height: 274px;
+        left: 14px;
+        top: 442px;
+    }
+
+    .advert-2 img {
+        position: absolute;
+        width: 197px;
+        height: 360px;
+        left: 19px;
+        top: 747px;
+    }
+
+    /* main */ 
+
+    main p {
+        font-size: 20px;
+    }
+    
+    .shan-chi  {
+        position: absolute;
+        width: 202px;
+        height: 298px;
+        left: 249px;
+        top: 183px;
+    }
+    
+    .first-film {
+        position: absolute;
+        width: 189px;
+        height: 24px;
+        left: 262px;
+        top: 491px;
+    }
+    
+    .final {
+        position: absolute;
+        width: 233px;
+        height: 308px;
+        left: 489px;
+        top: 183px;
+    }
+    
+    .second-film {
+        position: absolute;
+        width: 264px;
+        height: 21px;
+        left: 484px;
+        top: 500px;
+    }
+    
+    .no-way-home {
+        position: absolute;
+        width: 367px;
+        height: 273px;
+        left: 249px;
+        top: 537px;        
+    }
+    
+    .third-film {
+        position: absolute;
+        width: 388px;
+        height: 24px;
+        left: 239px;
+        top: 820px;
+    }
+    
+    .spider-man {
+        position: absolute;
+        width: 220px;
+        height: 311px;
+        left: 748px;
+        top: 189px;
+    }
+    
+    .forth-film {
+        position: absolute;
+        width: 215px;
+        height: 47px;
+        left: 748px;
+        top: 503px;        
+    }
+    
+    .marvel-capitan {
+        position: absolute;
+        width: 188px;
+        height: 273px;
+        left: 654px;
+        top: 559px;        
+    }
+    
+    .fifth-film {
+        position: absolute;
+        width: 90px;
+        height: 78px;
+        left: 873px;
+        top: 665px;        
+    }
+    
+    .marvel {
+        position: absolute;
+        width: 293px;
+        height: 288px;
+        left: 249px;
+        top: 871px;
+    }
+    
+    .sixth-film {
+        position: absolute;
+        width: 318px;
+        height: 52px;
+        left: 245px;
+        top: 1179px;
+    }
+    
+    .tor-rag {
+        position: absolute;
+        width: 207px;
+        height: 297px;
+        left: 654px;
+        top: 871px;
+    }
+    
+    .seventh-film {
+        position: absolute;
+        width: 241px;
+        height: 30px;
+        left: 654px;
+        top: 1179px;
+    }
+    
+    .doctor {
+        position: absolute;
+        width: 289px;
+        height: 389px;
+        left: 253px;
+        top: 1249px;
+    }
+    
+    .eighth-film {
+        position: absolute;
+        width: 363px;
+        height: 56px;
+        left: 228px;
+        top: 1643px;
+    }
+    
+    .murather {
+        position: absolute;
+        width: 248px;
+        height: 368px;
+        left: 661px;
+        top: 1237px;
+        animation-name: ds;
+    }
+    
+    .nineth-film {
+        position: absolute;
+        width: 346px;
+        height: 32px;
+        left: 620px;
+        top: 1611px;
+    }
+
+    footer {
+        position: absolute;
+        width: 990px;
+        height: 76px;
+        left: 0px;
+        top: 1733px;
+        border-top: 1px solid black;
+        font-size: 36px;
+    }
+
+    footer span {
+        font-size: 38px;
+        animation-name: f;
+        position: absolute;
+        top: 18px;
+        left: 350px;
+    }
+
+}

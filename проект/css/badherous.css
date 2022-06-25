@@ -1,0 +1,568 @@
+/* сайт */
+html {
+    background-color: grey;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 1366px; 
+    height: 1667px;
+    background-size: 1366px 1667px;
+    background-repeat: no-repeat;
+    background-image: url("C:/Users/Asus/Desktop/проект/img/1612889826_175-p-krasnii-fon-komiks-249.jpg");
+}
+
+.sait {
+    width: 1366px; 
+    height: 1667px; 
+    max-width: 1450px;
+    margin: auto;
+}
+
+/* header */
+
+header {
+    width: 1366px;
+    height: 240.88px;
+    border-bottom: 1px solid black;
+}
+
+
+header img {
+    width: 394px;
+    height: 155px;
+    position: absolute;
+    left: 50px;
+    top: 43px;
+    border-radius: 4px;
+}
+
+header span {
+    position: absolute;
+    width: 868px;
+    height: 48px;
+    left: 500px;
+    top: 100px;
+    font-size: 36px;
+}
+
+/* левое меню */
+/* меню*/
+ul {
+    padding:0;
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none; 
+    font-size: 30px;
+    color: white;
+}
+
+.menu-top-1 {
+    position: absolute;
+    top: 287px;
+    left: 87px;
+}
+
+.menu-top-2 {
+    position: absolute;
+    top: 369px;
+    left: 87px;
+}
+
+.menu-top-3 {
+    position: absolute;
+    top: 457px;
+    left: 87px;
+}
+
+.menu-top-4 {
+    position: absolute;
+    top: 545px;
+    left: 77px;
+}
+
+nav {
+    height: 380.12px;
+    width: 303.04px;
+}
+
+div.left {
+    height: 1330 px;
+    width: 303.04px;
+    border-right: 1px solid black;
+}
+
+.submenu {
+    visibility: hidden;
+    opacity: 0;
+    padding: 3px;
+}
+
+.menu-top-4:hover>.submenu {
+    visibility: visible;
+    z-index: 1;
+    opacity: 1;
+    transition: 1s;
+}
+
+.submenu li {
+    display: inline-block ;
+}
+
+.submenu-top-1{
+    padding-right: 15px;
+}
+
+.submenu-top-2{
+    padding-left: 15px;
+}
+
+
+.submenu-top a {
+    cursor: pointer;
+}
+
+/*реклама*/
+.advert {
+    height: 949.07px;
+    width: 303.04px;
+}
+
+.advert-1 {
+    height: 426px;
+    width: 303.04px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.advert-2 {
+    height: 523.07px;
+    width: 303.04px;
+}
+
+
+.advert-1 img {
+    position: absolute;
+    left: 5px;
+    top: 624px;
+    width:293px;
+    height:412px;
+}
+
+.advert-2 img {
+    position: absolute;
+    left: 5px;
+    top: 1063px;
+    width:293px;
+    height:490px;
+}
+
+/* main */ 
+
+img {
+    border-radius: 5px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.h1 {
+    position: absolute;
+    width: 264px;
+    height: 327px;
+    left: 441px;
+    top: 361px;
+}
+
+.p1 {
+    position: absolute;
+    width: 72px;
+    height: 32px;
+    left: 550px;
+    top: 680px;
+}
+
+.h2 {
+    position: absolute;
+    width: 308px;
+    height: 362px;
+    left: 906px;
+    top: 249px;
+}
+
+.p2 {
+    position: absolute;
+    width: 116px;
+    height: 40px;
+    left: 1020px;
+    top: 600px;
+}
+
+.h3 {
+    position: absolute;
+    width: 276px;
+    height: 491px;
+    left: 419px;
+    top: 818px;
+}
+
+.p3 {
+    position: absolute;
+    width: 202px;
+    height: 34px;
+    left: 500px;
+    top: 1300px;    
+}
+
+.h4 {
+    position: absolute;
+    width: 324px;
+    height: 372px;
+    left: 825px;
+    top: 690px;
+}
+
+.p4 {
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    left: 970px;
+    top: 1050px;
+}
+
+.h5 {
+    position: absolute;
+    width: 502px;
+    height: 305px;
+    left: 761px;
+    top: 1180px;
+}
+
+.p5 {
+    position: absolute;
+    width: 84px;
+    height: 24px;
+    left: 970px;
+    top: 1480px;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid black;
+    font-size: 36px;
+}
+
+footer span {
+    position: absolute;
+    width: 332px;
+    height: 52px;
+    left: 544px;
+    top: 1595px;    
+}
+
+@media (max-width: 990px) { 
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        width: 990px;
+        height: 1250px;
+        background-color: #efe3af;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        width: 990px;
+        height: 1250px;
+        background-size: 990px 1250px;
+        background-repeat: no-repeat;
+        background-image: url("C:/Users/Asus/Desktop/проект/img/1612889826_175-p-krasnii-fon-komiks-249.jpg");
+    }
+
+    .sait {
+        width: 990px;
+        height: 1250px;
+        max-width: 1450px;
+        margin: auto;
+    }
+
+    header {
+        width: 990px;
+        height: 163px;
+        border-bottom: 1px solid black;
+    }
+
+    header img {
+        position: absolute;
+        width: 234px;
+        height: 99px;
+        left: 30px;
+        top: 36px;        
+        border-radius: 5px;
+        animation-name: for;
+    }
+
+    header span {
+        position: absolute;
+        width: 673px;
+        height: 52px;
+        left: 310px;
+        top: 70px;        
+        font-size: 28px;
+    }
+
+    /* левое меню */
+    /* меню*/
+
+    ul {
+        padding:0;
+        margin:0;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    li {
+        list-style-type: none; 
+        font-size: 27px;
+        color: white;
+    }
+
+    .menu-top-1 {
+        position: absolute;
+        width: 160px;
+        height: 38px;
+        left: 58px;
+        top: 191px;
+    }
+
+    .menu-top-2 {
+        position: absolute;
+        width: 123px;
+        height: 38px;
+        left: 58px;
+        top: 248px;
+    }
+
+    .menu-top-3 {
+        position: absolute;
+        width: 138px;
+        height: 43px;
+        left: 58px;
+        top: 313px;
+    }
+
+    .menu-top-4 {
+        position: absolute;
+        width: 160px;
+        height: 30px;
+        left: 44px;
+        top: 375px;
+    }
+
+    nav {
+        height: 266px;
+        width: 210.5px;
+    }
+
+    div.left {
+        width: 225px;
+        height: 1010px;
+        border-right: 1px solid black;
+    }
+
+    .submenu {
+        visibility: hidden;
+        opacity: 0;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        width: 157px;
+        height: 22px;
+    }
+
+    .menu-top-4:hover>.submenu {
+        visibility: visible;
+        z-index: 1;
+        opacity: 1;
+        transition: 1s;
+    }
+  
+    .submenu li {
+        display: inline-block ;
+    }
+
+    .submenu-top-1{
+        padding: 0px;
+        margin-right: 10px;
+        width: 60px;
+        height: 20px;
+    }
+    
+    .submenu-top-2{
+        padding: 0px;
+        margin: 0px;
+        width: 80px;
+        height: 20px;
+    }
+    
+    .submenu-top a {
+        cursor: pointer;
+    }
+
+    /*реклама*/
+
+    .advert {
+        width: 225px;
+        height: 685px;
+    }
+
+    .advert-1 {
+        width: 225px;
+        height: 299px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+    .advert-2 {
+        width: 225px;
+        height: 386px;
+    }
+
+    .advert-1 img {
+        position: absolute;
+        width: 197px;
+        height: 274px;
+        left: 14px;
+        top: 442px;
+    }
+
+    .advert-2 img {
+        position: absolute;
+        width: 197px;
+        height: 360px;
+        left: 19px;
+        top: 747px;
+    }
+
+    /* main */ 
+    
+    p {
+        font-size: 20px;
+    }
+
+    .h1 {
+        position: absolute;
+        width: 199px;
+        height: 255px;
+        left: 260px;
+        top: 223px;
+    }
+
+    .p1 {
+        position: absolute;
+        width: 65px;
+        height: 22px;
+        left: 329px;
+        top: 488px;
+    }
+
+    .h2 {
+        position: absolute;
+        width: 269px;
+        height: 284px;
+        left: 684px;
+        top: 180px;
+    }
+
+    .p2 {
+        position: absolute;
+        width: 106px;
+        height: 22px;
+        left: 542px;
+        top: 322px;        
+    }
+
+    .h3 {
+        position: absolute;
+        width: 205px;
+        height: 352px;
+        left: 524px;
+        top: 493px;
+    }
+
+    .p3 {
+        position: absolute;
+        width: 130px;
+        height: 23px;
+        left: 762px;
+        top: 658px;        
+    }
+
+    .h4 {
+        position: absolute;
+        width: 195px;
+        height: 241px;
+        left: 260px;
+        top: 575px;
+    }
+
+    .p4 {
+        position: absolute;
+        width: 57px;
+        height: 24px;
+        left: 329px;
+        top: 826px;
+    }
+
+    .h5 {
+        position: absolute;
+        width: 495px;
+        height: 252px;
+        left: 366px;
+        top: 871px;      
+    }
+
+    .p5 {
+        position: absolute;
+        width: 85px;
+        height: 21px;
+        left: 581px;
+        top: 1138px;        
+    }
+
+    footer {
+        position: absolute;
+        width: 990px;
+        height: 76px;
+        left: 0px;
+        top: 1174px;
+        border-top: 1px solid black;
+        font-size: 36px;
+    }
+
+    footer span {
+        position: absolute;
+        width: 266px;
+        height: 38px;
+        left: 357px;
+        top: 10px;
+        font-size: 38px;
+    }
+
+}
